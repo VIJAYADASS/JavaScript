@@ -24,4 +24,4 @@ var peacock = Object.create(bird); // var new obj = Object.create (object - "bir
 peacock.hasDance = true; // object.property = value assign;
 console.log("peocock: ", peacock);
 
- 
+  
