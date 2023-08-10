@@ -23,3 +23,5 @@ console.log("penguin: ", penguin);
 var peacock = Object.create(bird); // var new obj = Object.create (object - "bird")
 peacock.hasDance = true; // object.property = value assign;
 console.log("peocock: ", peacock);
+
+ 
