@@ -20,6 +20,6 @@ console.log("penguin: ", penguin);
 
 // Ex- peacock
 
-var peocock = Object.create(bird);
-peocock.hasDance = true;
-console.log("peocock: ", peocock);
+var peacock = Object.create(bird);
+peacock.hasDance = true;
+console.log("peocock: ", peacock);
