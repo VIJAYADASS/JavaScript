@@ -1,8 +1,9 @@
 // Looping for Array
 const cars = ["BMW", "Volvo", "Mini"];
 
-let text = " ";
-for (let x of cars) {
-  text += x;
+let value = " ";
+for (let a of cars) {
+  value += a  + "<br>";
 }
+console.log(value);
 
