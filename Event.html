@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> an onclick attribute (with code), is added to a button element: </h2>
+<button onclick="document.getElementById('demo').innerHTML= Date()">The time is?</button> 
+<hr>
+<h2> the code changes the content of its own element (using this.innerHTML):</h2>
+<button onclick="this.innerHTML = Date()">The time is?</button>
+<p id="demo"></p>
+
+<hr>
+
+<h2>JavaScript HTML Events</h2>
+<p>Click the button to display the date.</p>
+
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo1").innerHTML = Date();
+}
+</script>
+
+<p id="demo1"></p>
+
+</body>
+</html>
