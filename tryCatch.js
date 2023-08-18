@@ -4,5 +4,5 @@ try {
 } 
 catch(e) {
     console.log(`Oops, you can't uppercase a number. 
-        Trying to do it resulted in the following`, e);
+        Trying to do it resulted in the following`, e); // ctrl + c + k ;
 }
